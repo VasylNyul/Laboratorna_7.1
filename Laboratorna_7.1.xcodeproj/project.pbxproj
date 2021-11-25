@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182BC36A27479AFB00887A9C /* Лаба_7_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 182BC36827479AFB00887A9C /* Лаба_7_1.cpp */; };
 		18F9BE8A27464E7A00EA9C16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9BE8927464E7A00EA9C16 /* AppDelegate.m */; };
 		18F9BE8D27464E7A00EA9C16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9BE8C27464E7A00EA9C16 /* ViewController.m */; };
 		18F9BE9027464E7A00EA9C16 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9BE8F27464E7A00EA9C16 /* Document.m */; };
 		18F9BE9227464E7B00EA9C16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F9BE9127464E7B00EA9C16 /* Assets.xcassets */; };
 		18F9BE9527464E7B00EA9C16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F9BE9327464E7B00EA9C16 /* Main.storyboard */; };
-		18F9BE9827464E7B00EA9C16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9BE9727464E7B00EA9C16 /* main.m */; };
 		18F9BEA327464E7B00EA9C16 /* Laboratorna_7_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9BEA227464E7B00EA9C16 /* Laboratorna_7_1Tests.m */; };
 		18F9BEAE27464E7B00EA9C16 /* Laboratorna_7_1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9BEAD27464E7B00EA9C16 /* Laboratorna_7_1UITests.m */; };
 /* End PBXBuildFile section */
@@ -35,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		182BC36827479AFB00887A9C /* Лаба_7_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Лаба_7_1.cpp"; sourceTree = "<group>"; };
+		182BC36927479AFB00887A9C /* Лаба_7_1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Лаба_7_1.hpp"; sourceTree = "<group>"; };
 		18F9BE8527464E7A00EA9C16 /* Laboratorna_7.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Laboratorna_7.1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F9BE8827464E7A00EA9C16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18F9BE8927464E7A00EA9C16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,7 +47,6 @@
 		18F9BE9127464E7B00EA9C16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18F9BE9427464E7B00EA9C16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18F9BE9627464E7B00EA9C16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18F9BE9727464E7B00EA9C16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18F9BE9927464E7B00EA9C16 /* Laboratorna_7_1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Laboratorna_7_1.entitlements; sourceTree = "<group>"; };
 		18F9BE9E27464E7B00EA9C16 /* Laboratorna_7.1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Laboratorna_7.1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F9BEA227464E7B00EA9C16 /* Laboratorna_7_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Laboratorna_7_1Tests.m; sourceTree = "<group>"; };
@@ -83,6 +84,8 @@
 		18F9BE7C27464E7A00EA9C16 = {
 			isa = PBXGroup;
 			children = (
+				182BC36827479AFB00887A9C /* Лаба_7_1.cpp */,
+				182BC36927479AFB00887A9C /* Лаба_7_1.hpp */,
 				18F9BE8727464E7A00EA9C16 /* Laboratorna_7.1 */,
 				18F9BEA127464E7B00EA9C16 /* Laboratorna_7.1Tests */,
 				18F9BEAC27464E7B00EA9C16 /* Laboratorna_7.1UITests */,
@@ -112,7 +115,6 @@
 				18F9BE9127464E7B00EA9C16 /* Assets.xcassets */,
 				18F9BE9327464E7B00EA9C16 /* Main.storyboard */,
 				18F9BE9627464E7B00EA9C16 /* Info.plist */,
-				18F9BE9727464E7B00EA9C16 /* main.m */,
 				18F9BE9927464E7B00EA9C16 /* Laboratorna_7_1.entitlements */,
 			);
 			path = Laboratorna_7.1;
@@ -266,8 +268,8 @@
 			files = (
 				18F9BE9027464E7A00EA9C16 /* Document.m in Sources */,
 				18F9BE8D27464E7A00EA9C16 /* ViewController.m in Sources */,
-				18F9BE9827464E7B00EA9C16 /* main.m in Sources */,
 				18F9BE8A27464E7A00EA9C16 /* AppDelegate.m in Sources */,
+				182BC36A27479AFB00887A9C /* Лаба_7_1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
